@@ -1,4 +1,6 @@
+<?php
 function request($url, $token = null, $data = null, $pin = null, $otpsetpin = null, $uuid = null){
+	
 $header[] = "Host: api.gojekapi.com";
 $header[] = "User-Agent: okhttp/3.10.0";
 $header[] = "Accept: application/json";
